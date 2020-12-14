@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <h1>Maharsh</h1>
     </div>
   );
 }
