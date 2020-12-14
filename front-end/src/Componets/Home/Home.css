@@ -1,0 +1,40 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.home__jumbotron{
+    display: flex;
+    background-color: rgb(19, 35, 40);
+    width: 100%;
+}
+
+.home__text{
+    flex: 1;
+    width: 450px;
+    padding-right: 40px;
+    color: white;
+    margin-top: 120px;
+    margin-left: 60px;
+}
+
+
+.home__text > h1{
+    width: 300px;
+    font-size: 36px;
+    font-family: 'UberMoveText-Regular, sans-serif';
+    color: white;
+}
+
+.home__offers{
+    display: flex;
+    margin: 30px 50px;
+}
+
+.home__offers > img{
+    margin-right: 40px;
+    width: 500px;
+    height: 250px;
+
+    cursor: pointer;
+}
