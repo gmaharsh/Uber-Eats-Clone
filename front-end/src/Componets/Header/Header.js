@@ -9,7 +9,7 @@ function Header() {
     return (
         <div className="header">
             <div className="header__left">
-                <MenuIcon fontSize="large" />
+                <MenuIcon className="header__more" fontSize="large" />
                 <img
                     className="header__logo"
                     src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/ee037401cb5d31b23cf780808ee4ec1f.svg"
