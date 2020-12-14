@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Menu from './Menu/Menu';
 
 function Home() {
     return (
@@ -19,6 +20,9 @@ function Home() {
                         alt=""
                     />
                 </div>
+            </div>
+            <div className="home__menu">
+                <Menu />
             </div>
         </div>
     )

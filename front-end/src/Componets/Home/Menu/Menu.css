@@ -1,0 +1,37 @@
+.Menu{
+    display: flex;
+    flex-direction: column ;
+}
+
+.menu__cuisine{
+    display: flex;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.menu__cuisineTypes{
+    display: flex;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+.menu__cusine__type{
+    align-items: center;
+    padding: 20px;
+    width: 40px;
+    padding: 25px;
+}
+
+.menu__cusine__type > img{
+    object-fit: contain;
+    width: 50px;
+}
+
+.menu__cusine__type > img :hover{
+    border: 1px solid red;
+}
+
+.menu__cusine__type > h4{
+    font-family: UberMoveText-Regular, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
