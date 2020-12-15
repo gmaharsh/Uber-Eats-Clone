@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Menu from './Menu/Menu';
+import Restaurents from './Restaurents/Restaurents';
 
 function Home() {
     return (
@@ -23,6 +24,9 @@ function Home() {
             </div>
             <div className="home__menu">
                 <Menu />
+            </div>
+            <div className="home__restaurent">
+                <Restaurents />
             </div>
         </div>
     )
